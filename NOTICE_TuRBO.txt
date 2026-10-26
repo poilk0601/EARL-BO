@@ -1,0 +1,6 @@
+The files turbo.py, gp.py and utils.py in every package of this repository are from TuRBO
+(https://github.com/uber-research/TuRBO, turbo/turbo_1.py, turbo/gp.py, turbo/utils.py),
+Copyright (c) 2019 Uber Technologies, Inc., licensed under the Uber Non-Commercial License
+(LICENSE_TuRBO.txt, reproduced verbatim). gp.py and utils.py are unchanged. turbo.py was modified for this
+repository on 2026-10-19: the two relative imports (from .gp / from .utils) were made absolute so that the file works as a
+plain module next to gp.py and utils.py. Nothing else was changed; a notice is also at the top of turbo.py.
